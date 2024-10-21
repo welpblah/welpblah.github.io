@@ -1,63 +1,55 @@
 @font-face {
-	font-family: "EB Garamond";
-	src: url("./public/fonts/EBGaramond12-Regular.woff") format("woff");
+	font-family: "Cooper*";
+	src: url("./assets/fonts/Cooper.woff2") format("woff2");
 	font-style: normal;
 	font-weight: normal;
   	font-display: swap;
 }
 
 @font-face {
-	font-family: "EB Garamond";
-	src: url("./public/fonts/EBGaramond12-Italic.woff") format("woff");
+	font-family: "Cooper*";
+	src: url("./assets/fonts/Cooper-Italic.woff2") format("woff2");
 	font-style: italic;
 	font-weight: normal;
 	font-display: swap;
 }
 
 @font-face {
-	font-family: "EB Garamond SC";
-	src: url("./public/fonts/EBGaramond12-SC.woff") format("woff");
-	font-style: normal;
-	font-weight: normal;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: "EB Garamond Initials";
-	src: url("./public/fonts/EBGaramond-Initials.woff") format("woff2");
-	font-style: normal;
-	font-weight: normal;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: "fanta";
-	src: url("./public/fonts/FantasqueSansMono.woff2") format("woff2");
-	font-style: normal;
-	font-weight: normal;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: "fanta";
-	src: url("./public/fonts/FantasqueSansMono-Italic.woff2") format("woff2");
-	font-style: italic;
-	font-weight: normal;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: "fanta";
-	src: url("./public/fonts/FantasqueSansMono-Bold.woff2") format("woff2");
+	font-family: "Cooper*";
+	src: url("./assets/fonts/Cooper-Bold.woff2") format("woff2");
 	font-style: normal;
 	font-weight: bold;
 	font-display: swap;
 }
 
 @font-face {
-	font-family: "fanta";
-	src: url("./public/fonts/FantasqueSansMono-BoldItalic.woff2") format("woff2");
+	font-family: "Cooper*";
+	src: url("./assets/fonts/Cooper-BoldItalic.woff2") format("woff2");
 	font-style: italic;
 	font-weight: bold;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "fanta";
+	src: url("./assets/fonts/FantasqueSansMono.woff2") format("woff2");
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Avara Bold";
+	src: url("./assets/fonts/Avara-Bold.woff2") format("woff2");
+	font-style: normal;
+	font-weight: bold;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Lithops";
+	src: url("./assets/fonts/Lithops-Regular.woff2") format("woff2");
+	font-style: normal;
+	font-weight: normal;
 	font-display: swap;
 }

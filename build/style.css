@@ -4,24 +4,59 @@
 }
 
 body {
-	font-family: "EB Garamond", serif;
+	font-family: "Cooper*", serif;
 	font-size: 120%;
-	line-height: 1.33;
-	padding: 1rem 2rem;
+	line-height: 1.6;
+	color: #202020;
+	padding: 1rem 2rem 2rem;
 	max-width: 650px;
 	margin: 0 auto;
 }
 
-h1 + p + p:first-letter {
-	font-family: "EB Garamond Initials";
-	font-size: 3em;
-	float: left;
-	padding-right: 4px;
+a.nav-active { 
+    /* color: var(--Accent1-color);
+    font-weight: 700; */
+    text-decoration: underline;
+	font-weight: bold;
 }
 
-h1 + p + p:first-line {
-	font-family: "EB Garamond SC", serif;
-	letter-spacing: 0.05em; 
+nav a { text-decoration: none; }
+
+a.here { text-decoration: none; }
+
+.header-title {
+    font-family: "Lithops";
+	margin: 0;
+	font-size: 320%;
+	color: #AD1A00;
+}
+
+h1, h2, h3, h4 {
+	font-family: "Avara Bold", serif;
+}
+
+h1 {
+	font-size: 170%;
+}
+
+h2 {
+	font-size: 150%;
+}
+
+h3 {
+	font-size: 130%;
+}
+
+h4 {
+	font-size: 110%;
+}
+
+nav a { text-decoration: none; }
+
+a.here { text-decoration: none; }
+
+#post-header + p::first-letter {
+	font-feature-settings: "swsh" 1;
 }
 
 abbr {
@@ -44,13 +79,6 @@ dd {
 
 summary {
   cursor: pointer;
-}
-
-dt,
-details[open] summary {
-	font-weight: normal;
-	font-family: "EB Garamond SC", serif;
-	text-transform: lowercase;
 }
 
 details {
@@ -76,8 +104,8 @@ ins {
 }
 
 blockquote {
+	border-left: 3px solid #ccc;
 	background-color: #eee;
-	border-left: 4px solid #ccc;
 }
 
 blockquote > p {
@@ -90,13 +118,15 @@ kbd {
   	font-size: 90%;
   	font-family: "fanta", monospace;
   	padding: 0.1em 0.2em;
+	line-height: 1.33;
 }
 
 pre {
 	overflow: auto;
   	padding: 1ch 2ch;
-  	background-color: #eee;
-	border: 1px solid #ccc;
+	border: 2px dotted #ccc;
+	background-color: #eee;
+	border-radius: 5px;
 }
 
 kbd {
@@ -107,7 +137,7 @@ kbd {
 }
 
 a[href*="//"]:after {
-    font-size: .9em;
+    font-size: .74em;
     content: "\2197";
     display: inline-block;
 }
@@ -116,25 +146,26 @@ a:link {
 	text-decoration-thickness: 2px;
 }
 
-h1, h2, h3, h4, h5 {
-	font-family: "EB Garamond SC", serif;
-	text-transform: lowercase;
-	font-weight: normal;
-}
-
 img { 
 	max-width: 100%;
 	height: auto;
-	border: 1px solid #dcdcdc;
+	border: 1px solid #222;
+}
+
+.profile {
+	border-radius: 20px;
 }
 
 header {
-	text-align: end;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
 }
 
 footer {
 	margin-top: 2em;
-	line-height: 1.2;
+	line-height: 1.33;
 	text-align: center;
 }
 
@@ -144,72 +175,24 @@ footer {
 	font-size: .8em;
 }
 
-figure {
-	text-align: center;
+figcaption, footer, #post-header > div {
+    color: #595959;
 }
 
-h1 + p, .toc, figcaption, figcaption a:link, figcaption a:hover, figcaption a:active, figcaption a:visited, footer, footer a:link, footer a:hover, footer a:active, footer a:visited {
-	color: #757575;
-}
-
-.toc, nav, footer, figcaption {
+nav, footer, figcaption, #post-header > div {
 	font-size: smaller;
 }
 
-figcaption a:link {
+figcaption a:link, footer a:link, #post-header > div a:link {
 	text-decoration: underline;
+	color: #595959;
 }
 
-figcaption a:hover {
+figcaption a:hover, footer a:hover, #post-header > div a:hover  {
 	text-decoration: none;
-}
-	
-table {
-	border-collapse: collapse;
-	width: 100%;
+	color: #595959;
 }
 
-th, tr:first-of-type, tr:last-of-type {
-	text-align: start;
-	background-color: #eee;
-	font-weight: normal;
-	font-family: "EB Garamond SC", serif;
-	text-transform: lowercase;
-}
-
-tr:first-of-type {
-	border-bottom: 2px solid #ccc;
-}
-
-tr:last-of-type {
-	border-top: 2px solid #ccc;
-}
-
-th:not(:first-child),
-td:not(:first-child) {
-	text-align: end;
-}
-
-th,
-td {
-	border: 1px solid #ccc;
-	padding: 0.25rem 0.75rem;
-	vertical-align: baseline;
-}
-
-th:first-child {
-	inset-inline-start: 0;
-}
-
-th {
-	vertical-align: bottom;
-}
-
-th:first-child::after {
-	content: '';
-	position: absolute;
-	inset-block-start: 0;
-	inset-inline-end: 0;
-	width: 1px;
-	height: 100%;
+figcaption a:visited, footer a:visited, figcaption a:active, footer a:active, #post-header > div a:active, #post-header > div a:visited {
+	color: #595959;
 }
