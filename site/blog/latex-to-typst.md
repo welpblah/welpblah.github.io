@@ -1,5 +1,5 @@
 <post-metadata>
-  <post-title>latex -> typst</post-title>
+  <post-title>latex to typst</post-title>
   <post-date>2024-10-09</post-date>
   <post-tags>typesetting</post-tags>
 </post-metadata>

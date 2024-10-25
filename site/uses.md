@@ -1,6 +1,6 @@
 # uses
 
-Inspired by [Uses This](https://usesthis.com/), the following, which, by factor of listing them out, helps with a sense of intentionality, represents the tools I use in a somewhat regular basis. Sometimes I give up sensibility in favor of convienience.
+<aside>Inspired by <a href="https://usesthis.com/">the interviews on Uses This</a>, the following represents the tools I use in a somewhat regular basis.<br><br>Please reach out if you happen to know of better (for example: ethical, green) alternatives to any of the tools.</aside>
 
 ## hardware
 ### computer
@@ -18,18 +18,21 @@ Inspired by [Uses This](https://usesthis.com/), the following, which, by factor 
 ## software
 ### desktop
 - **Password manager:** KeePassXC
-- **Text editor:** Visual Studio Code
+- **Text editor:** BBEdit
 - **Terminal:** Terminal.app
   - **Shell:** Bash
   - **Package manager:** MacPorts
     - **Typesetting system:** Typst
   - **Version control system:** Git
-- **<abbr title="Portable Document Format">PDF</abbr> knowledge manager:** [Cahier](https://getcahier.com/)
+- **Task manager:** TextEdit.app
+- **<abbr title="Portable Document Format">PDF</abbr> viewer:** Preview.app
 - **<abbr title="Free Lossless Audio Codec">FLAC</abbr> player:** foobar2000
+- **Prevent sleep:** [KeepingYouAwake](https://keepingyouawake.app/)
 
 ### browser
 - **Browser:** Google
   - **Search engine:** Chrome
+    - **“Clean” search results:** [&udm=14](https://tenbluelinks.org/)
   - **Extensions:**
     - **Content blocker:** uBlock Origin
     - **Password manager plugin:** KeePassXC-Browser
@@ -44,7 +47,7 @@ Inspired by [Uses This](https://usesthis.com/), the following, which, by factor 
 #### subscriptions
 - **Domain registrar:** Porkbun
 - **E-mail service provider:** Migadu
-- **Philosophy articles:** [Friends of the Stanford Encyclopedia of Philosophy](https://leibniz.stanford.edu/friends/)
+- **Philosophy articles:** [Friends of the Stanford Encyclopedia of Philosophy Society](https://leibniz.stanford.edu/friends/)
 - **Philosophy reviews:** [Notre Dame Philosophical Reviews](https://ndpr.nd.edu/) (Free)
 - **Literary magazine:** The Kenyon Review
 - **Movie streaming service:** Criterion Channel

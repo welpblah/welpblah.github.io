@@ -4,60 +4,27 @@
 }
 
 body {
-	font-family: "Cooper*", serif;
-	font-size: 120%;
-	line-height: 1.6;
-	color: #202020;
-	padding: 1rem 2rem 2rem;
-	max-width: 650px;
+	font-family: "Luciole", sans-serif;
+	color: #333;
+	font-size: 110%;
+	line-height: 1.55;
+	padding: 2rem;
+	max-width: 800px;
 	margin: 0 auto;
 }
 
 a.nav-active { 
-    /* color: var(--Accent1-color);
-    font-weight: 700; */
     text-decoration: underline;
-	font-weight: bold;
+    font-weight: bold;
 }
 
-nav a { text-decoration: none; }
+nav a {
+	text-decoration: none;
+	margin-right: 1.4rem;
+}
 
 a.here { text-decoration: none; }
 
-.header-title {
-    font-family: "Lithops";
-	margin: 0;
-	font-size: 320%;
-	color: #AD1A00;
-}
-
-h1, h2, h3, h4 {
-	font-family: "Avara Bold", serif;
-}
-
-h1 {
-	font-size: 170%;
-}
-
-h2 {
-	font-size: 150%;
-}
-
-h3 {
-	font-size: 130%;
-}
-
-h4 {
-	font-size: 110%;
-}
-
-nav a { text-decoration: none; }
-
-a.here { text-decoration: none; }
-
-#post-header + p::first-letter {
-	font-feature-settings: "swsh" 1;
-}
 
 abbr {
 	cursor: help;
@@ -68,9 +35,14 @@ abbr[title] {
 }
 
 abbr[title]:hover::after {
-  	font-size: 92%;
+  	font-size: 96%;
   	content: " (" attr(title) ")";
   	cursor: help;
+}
+
+dt,
+details[open] summary {
+	font-weight: bold;
 }
 
 dd {
@@ -94,6 +66,11 @@ mark {
   	background-color: #fee433;
 }
 
+aside {
+	border: 2px dotted;
+	padding: 1rem;
+}
+
 del {
   	color: #A30F2D;
 }
@@ -104,8 +81,7 @@ ins {
 }
 
 blockquote {
-	border-left: 3px solid #ccc;
-	background-color: #eee;
+	border-left: 3px solid #333;
 }
 
 blockquote > p {
@@ -115,7 +91,7 @@ blockquote > p {
 pre,
 code,
 kbd {
-  	font-size: 90%;
+  	font-size: 100%;
   	font-family: "fanta", monospace;
   	padding: 0.1em 0.2em;
 	line-height: 1.33;
@@ -123,10 +99,8 @@ kbd {
 
 pre {
 	overflow: auto;
-  	padding: 1ch 2ch;
-	border: 2px dotted #ccc;
-	background-color: #eee;
-	border-radius: 5px;
+  	padding: 0.6rem 1rem;
+	border: 2px solid #333;
 }
 
 kbd {
@@ -137,7 +111,7 @@ kbd {
 }
 
 a[href*="//"]:after {
-    font-size: .74em;
+    font-size: .78em;
     content: "\2197";
     display: inline-block;
 }
@@ -149,37 +123,19 @@ a:link {
 img { 
 	max-width: 100%;
 	height: auto;
-	border: 1px solid #222;
-}
-
-.profile {
-	border-radius: 20px;
-}
-
-header {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: space-between;
+	border: 2px solid #333;
 }
 
 footer {
-	margin-top: 2em;
-	line-height: 1.33;
+	margin-top: 2rem;
 	text-align: center;
 }
 
-.arrow {
-	display: inline-block;
-	font-family: system-ui, sans-serif;
-	font-size: .8em;
-}
-
-figcaption, footer, #post-header > div {
+footer, figcaption, #post-header > div {
     color: #595959;
 }
 
-nav, footer, figcaption, #post-header > div {
+footer, figcaption, #post-header > div {
 	font-size: smaller;
 }
 
@@ -195,4 +151,59 @@ figcaption a:hover, footer a:hover, #post-header > div a:hover  {
 
 figcaption a:visited, footer a:visited, figcaption a:active, footer a:active, #post-header > div a:active, #post-header > div a:visited {
 	color: #595959;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th {
+	text-align: start;
+}
+
+th:last-child,
+td:last-child {
+	text-align: end;
+}
+
+th,
+td {
+	border: 2px solid #333;
+	padding: 1rem;
+}
+
+th:first-child {
+	inset-inline-start: 0;
+}
+
+th {
+	vertical-align: bottom;
+}
+
+th:first-child::after {
+	content: '';
+	position: absolute;
+	inset-block-start: 0;
+	inset-inline-end: 0;
+	width: 1px;
+	height: 100%;
+}
+
+@supports (color-scheme: dark light) {
+    @media screen and (prefers-color-scheme: dark) {
+    	body { color: #e2e2e2; }
+        a:link {color: #9e9eff;}
+        a:visited {color: #d0adf0;}
+        a:active {color: salmon;}
+        img { border: 2px solid #e2e2e2; }
+        blockquote { border-left: 3px solid #e2e2e2; }
+th,
+td {
+	border: 2px solid #e2e2e2; }
+        pre { border: 2px solid #e2e2e2; }
+        footer, figcaption, #post-header > div, figcaption a:link, footer a:link, #post-header > div a:link, figcaption a:hover, footer a:hover, #post-header > div a:hover, figcaption a:visited, footer a:visited, figcaption a:active, footer a:active, #post-header > div a:active, #post-header > div a:visited  {
+    color: #A1A1A1;
+}
+    }
 }

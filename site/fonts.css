@@ -1,49 +1,8 @@
 @font-face {
-	font-family: "Cooper*";
-	src: url("./assets/fonts/Cooper.woff2") format("woff2");
-	font-style: normal;
-	font-weight: normal;
-  	font-display: swap;
-}
-
-@font-face {
-	font-family: "Cooper*";
-	src: url("./assets/fonts/Cooper-Italic.woff2") format("woff2");
-	font-style: italic;
-	font-weight: normal;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: "Cooper*";
-	src: url("./assets/fonts/Cooper-Bold.woff2") format("woff2");
-	font-style: normal;
-	font-weight: bold;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: "Cooper*";
-	src: url("./assets/fonts/Cooper-BoldItalic.woff2") format("woff2");
-	font-style: italic;
-	font-weight: bold;
-	font-display: swap;
-}
-
-@font-face {
 	font-family: "fanta";
 	src: url("./assets/fonts/FantasqueSansMono.woff2") format("woff2");
 	font-style: normal;
 	font-weight: normal;
-	font-display: swap;
-}
-
-@font-face {
-	font-family: "Avara Bold";
-	src: url("./assets/fonts/Avara-Bold.woff2") format("woff2");
-	font-style: normal;
-	font-weight: bold;
-	font-display: swap;
 }
 
 @font-face {
@@ -51,5 +10,32 @@
 	src: url("./assets/fonts/Lithops-Regular.woff2") format("woff2");
 	font-style: normal;
 	font-weight: normal;
-	font-display: swap;
+}
+
+@font-face {
+	font-family: "Luciole";
+	src: url("./assets/fonts/Luciole-Regular.woff2") format("woff2");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Luciole";
+	src: url("./assets/fonts/Luciole-Italic.woff2") format("woff2");
+	font-style: italic;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Luciole";
+	src: url("./assets/fonts/Luciole-Bold.woff2") format("woff2");
+	font-style: normal;
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Luciole";
+	src: url("./assets/fonts/Luciole-BoldItalic.woff2") format("woff2");
+	font-style: italic;
+	font-weight: bold;
 }
