@@ -1,6 +1,6 @@
 # uses
 
-<aside>Inspired by <a href="https://usesthis.com/">the interviews on Uses This</a>, the following represents the tools I use in a somewhat regular basis.<br><br>Please reach out if you happen to know of better (for example: ethical, green) alternatives to any of the tools.</aside>
+<aside>Miles Davis: “Man, sometimes it takes you a long time to sound like yourself.” Does this not also apply to the tools we use?</aside>
 
 ## hardware
 ### computer
@@ -32,16 +32,14 @@
 ### browser
 - **Browser:** Google
   - **Search engine:** Chrome
-    - **“Clean” search results:** [&udm=14](https://tenbluelinks.org/)
+    - **Clean search results:** [&udm=14](https://tenbluelinks.org/)
   - **Extensions:**
     - **Content blocker:** uBlock Origin
     - **Password manager plugin:** KeePassXC-Browser
     - **Keyboard shorcuts:** Vimium
-  - **Nameserver:** NextDNS
-    - **Config:** [NextDNS-Config](https://github.com/yokoffing/NextDNS-Config)
-- **Code forge:** GitHub
+- **Code forges:** GitHub
 - **Domain registrar:** Porkbun
-- **E-mail service provider:** Migadu
+- **E-mail service provider:** Migadu, Protonmail
 - **<abbr title="Free Lossless Audio Codec">FLAC</abbr> providers:** Bandcamp, Boomkat
 
 #### subscriptions

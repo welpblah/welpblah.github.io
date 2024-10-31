@@ -109,7 +109,7 @@ while (i <= tag_count) do
 end
 
 local template = [[
-<h1>Posts by tag</h1>
+<h1>posts by tag</h1>
 <ul>
 {% for t in tag_links %}
   <li> <a href="{{t.url}}">{{t.title}}</a> </li>

@@ -99,19 +99,21 @@
   # Jingoo template for rendering extracted metadata
   index_template = """
     {% for e in entries %}
-    <h2><a href="{{e.url}}">{{e.title}}</a></h2>
-    <div><strong>last update:</strong> {{e.date}}</div>
-    {% if e.tags %}
+    <ul class="toc">
+    	<li>
+    	<span class="toc-date">{{e.date}}</span>
+    	    {% if e.tags %}
     <div class="post-tags">
-       <strong>tags: </strong>
+       <span> &bull; </span>
        {%- for t in e.tags -%}
          <a href="/blog/tag/{{t}}"><span class="post-tag">{{t}}</span></a>{% if not loop.last %}, {% endif %}
        {%- endfor -%}
     </div>
     {% endif %}
-    <div><strong>reading time:</strong> {{e.reading_time}}</div>
-    <p>{{e.excerpt}}</p>
-    <a href="{{e.url}}">Read more</a>
+    	<br>
+    	<a href="{{e.url}}">{{e.title}}</a>
+    	</li>
+    </ul>
     {% endfor %}
   """
 
@@ -190,10 +192,10 @@
   post_header_template = '''
     <div id="post-header">
       <h1 id="post-title">{{title}}</h1>
-      <div><strong>last update:</strong> <time id="post-date" datetime="{{date}}">{{date}}</time></div>
+      <div><time id="post-date" datetime="{{date}}">{{date}}</time></div>
       {% if tags %}
         <div class="post-tags">
-         <span><strong>tags:</strong> </span>
+         <span>&bull; </span>
          {%- for t in tags -%}
            <a href="/blog/tag/{{t}}"><span class="post-tag">{{t}}</span></a>{% if not loop.last %}, {% endif %}
          {%- endfor -%}
@@ -220,7 +222,7 @@
   action = "append_child"
   selector = "#post-header"
 
-  html = '<div><strong>reading time:</strong> <span id="reading-time"></span></div>'
+  html = '<div><br><span id="reading-time"></span> <span>reading time</span></div>'
 
 # This widget comes from plugins/reading-time.lua
 # It calculates estimated reading time based on word count
