@@ -1,0 +1,95 @@
+                                        8
+                                        8
+.oPYo. o    o odYo. oPYo. .oPYo. .oPYo. 8oPYo.
+Yb..   8    8 8' `8 8  `' .oooo8 Yb..   8    8
+  'Yb. 8    8 8   8 8     8    8   'Yb. 8    8
+`YooP' `YooP' 8   8 8     `YooP8 `YooP' 8    8
+:.....::.....:..::....:::::.....::.....:..:::..
+:::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::
+
+The colophon for this site.
+
+------------
+TECHNOLOGIES
+------------
+
+Soupault - Static site generator
+https://soupault.app/
+
+HTML - Markup language
+https://developer.mozilla.org/en-US/docs/Web/HTML
+
+CSS - Stylesheet language
+https://developer.mozilla.org/en-US/docs/Web/CSS
+
+Markdown - Markup language
+https://daringfireball.net/projects/markdown/
+
+Lua - Programming language
+https://www.lua.org/
+
+TOML - Data serialization language
+https://toml.io/en/
+
+GitHub - Code hosting
+https://github.com/
+
+GitHub Pages - Site hosting
+https://pages.github.com/
+
+GitHub Actions - Continuous deployment
+https://github.com/features/actions
+
+-----
+TOOLS
+-----
+
+Visual Studio Code - Text editor
+https://code.visualstudio.com/
+
+Chrome - Browser
+https://www.google.com/chrome/
+
+-----
+FONTS
+-----
+
+Helitrope by Matthew Butterick
+https://mbtype.com/fonts/heliotrope/story.html
+
+JetBrains Mono
+https://www.jetbrains.com/lp/mono/
+
+---------------
+PROFILE PICTURE
+---------------
+
+The profile picture on the root page is dithered with the Dither it! tool
+https://ditherit.com/
+
+-------
+LICENSE
+-------
+
+The content of the site is dedicated to the public domain
+https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+
+------
+DOMAIN
+------
+
+The fully qualified domain name, 'sunrash.com', is the intended name of the site, 'sunrash'
+(Please note: there is no space between 'sun' and 'rash', contrary to the accepted form)
+
+The second-level domain, 'sunra', is a reference to Sun Ra, the late musician
+https://en.wikipedia.org/wiki/Sun_Ra
+
+The country code top-level domain, '.sh', belongs to the British Overseas Territory of Saint Helena, Ascension and Tristan da Cunha
+https://en.wikipedia.org/wiki/.sh
+
+--------
+LOCATION
+--------
+
+The site is made and written from Santa Ana, California

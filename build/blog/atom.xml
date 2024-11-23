@@ -1,10 +1,52 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://sunra.sh/atom.xml</id>
-  <updated>2024-10-09T00:00:00+00:00</updated>
+  <updated>2024-11-15T00:00:00+00:00</updated>
   <title>sunrash – a personal website</title><author>
-    <name></name><email>ow@sunra.sh</email></author>
+    <name></name><email>blog@sunra.sh</email></author>
   <generator uri="https://soupault.app" version="4.11.0">soupault</generator>
+  <entry>
+    <id>https://sunra.sh/blog/two-cool-programmers</id>
+    <title>two cool programmers</title>
+    <updated>2024-11-15T00:00:00+00:00</updated>
+    <content type="html">
+    A couple of interesting programmers I’ve come across this past year
+are &lt;a href=&quot;https://github.com/kevinboone/&quot;&gt;Kevin Boone&lt;/a&gt; and Greg
+Miller.
+    </content>
+    <link href="https://sunra.sh/blog/two-cool-programmers" rel="alternate"/>
+  </entry>
+  
+  <entry>
+    <id>https://sunra.sh/blog/ssh-keygen</id>
+    <title>ssh-keygen</title>
+    <updated>2024-11-14T00:00:00+00:00</updated>
+    <content type="html">
+    The &lt;a href=&quot;https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent&quot;&gt;GitHub
+documentation&lt;/a&gt;, &lt;a href=&quot;https://man.sr.ht/tutorials/set-up-account-and-git.md&quot;&gt;SourceHut
+documentation&lt;/a&gt;, and &lt;a href=&quot;https://docs.codeberg.org/security/ssh-key/&quot;&gt;Codeberg
+documentation&lt;/a&gt; for generating SSH keys are slightly different.
+    </content>
+    <link href="https://sunra.sh/blog/ssh-keygen" rel="alternate"/>
+  </entry>
+  
+  <entry>
+    <id>https://sunra.sh/blog/a-better-abbr-element</id>
+    <title>a better `abbr` element</title>
+    <updated>2024-11-14T00:00:00+00:00</updated>
+    <content type="html">
+    The &lt;code&gt;abbr&lt;/code&gt; HTML element represents an
+abbreviation/acronym. The element is useless if (1) it is without the
+&lt;code&gt;title&lt;/code&gt; attribute stating what the abbrevation/acronym means
+via the browser tooltip when the mouse cursor is hovered over the
+element or (2) it is without text, after or before the element,
+explicitly stating what the abbrevation/acronym means. The most
+accessibly-friendly approach is using both tactics. Although, there is,
+I think, an acceptable medium.
+    </content>
+    <link href="https://sunra.sh/blog/a-better-abbr-element" rel="alternate"/>
+  </entry>
+  
   <entry>
     <id>https://sunra.sh/blog/latex-to-typst</id>
     <title>latex to typst</title>

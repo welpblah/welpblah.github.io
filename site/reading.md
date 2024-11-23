@@ -1,6 +1,6 @@
 # reading
 
-<aside><a href=""https://www.themarginalian.org/2014/06/06/kafka-on-books-and-reading/">Franz Kafka:</a> “If the book we’re reading doesn’t wake us up with a blow on the head, what are we reading it for?”</aside><br>
+<aside>As <a href="https://www.themarginalian.org/2014/06/06/kafka-on-books-and-reading/">20-year-old Franz Kafka writes to his childhood friend</a>, “If the book we’re reading doesn’t wake us up with a blow on the head, what are we reading it for?”<br><br>The list below represents my personal reading list, one that I would like to add comes from, hopefully, judicious discernment in regard to my interests.</aside><br>
 
 <table>
   <thead>
@@ -11,6 +11,11 @@
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>Richard Kearney</td>
+      <td>Carnal Hermeneutics</td>
+      <td>Fall 2024</td>
+    </tr>
     <tr>
       <td>Emil Cioran</td>
       <td>Tears and Saints</td>
@@ -50,11 +55,9 @@
 <!-- 
   <tfoot>
     <tr>
-      <th scope="row" colspan="2">Average age</th>
-      <td>33</td>
+      <th></th>
+      <td></td>
     </tr>
   </tfoot>
  -->
 </table>
-
-See the [Internet Archive](https://archive.org) or [Anna's Archive](https://annas-archive.org) for most of these titles.

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="a personal website">
+  <meta property="og:title" content="sunrash">
+  <meta property="og:description" content="a personal website">
+  <meta property="og:image" content="/assets/images/odilon-redon.jpg">
+  <link rel="stylesheet" href="/style.css">
+  <title>
+   a better `abbr` element — sunrash
+  </title>
+ </head>
+ <body>
+  <header>
+   <nav>
+    <a href="/">sunrash</a> &nbsp;&nbsp;/&nbsp;&nbsp;
+        <a class="nav-active" href="/blog">blog</a> &nbsp;&nbsp;/&nbsp;&nbsp;
+        <a href="/uses">uses</a> &nbsp;&nbsp;/&nbsp;&nbsp;
+        <a href="/reading">reading</a> &nbsp;&nbsp;/&nbsp;&nbsp;
+        <a href="/resources">resources</a>
+   </nav>
+  </header>
+  <main>
+   <div id="post-header">
+    <h1 id="post-title">
+     a better `abbr` element
+    </h1>
+    <div>
+     <time id="post-date" datetime="2024-11-14">2024-11-14</time>
+    </div>
+    <div class="post-tags">
+     <span>&nbsp;•&nbsp;&nbsp;</span><a href="/blog/tag/html"><span class="post-tag">html</span></a>, <a href="/blog/tag/css"><span class="post-tag">css</span></a>
+    </div>
+    <div>
+     <br><span id="reading-time">less than a minute</span> <span>reading time</span>
+    </div>
+   </div>
+   <p>
+    The <code>abbr</code> HTML element represents an
+abbreviation/acronym. The element is useless if (1) it is without the
+<code>title</code> attribute stating what the abbrevation/acronym means
+via the browser tooltip when the mouse cursor is hovered over the
+element or (2) it is without text, after or before the element,
+explicitly stating what the abbrevation/acronym means. The most
+accessibly-friendly approach is using both tactics. Although, there is,
+I think, an acceptable medium.
+   </p>
+   <p>
+    You may paste this in the <a href="https://html.onlineviewer.net/">HTML Online Viewer</a> to see a
+demo:
+   </p>
+   <div class="sourceCode" id="cb1">
+    <pre class="sourceCode html"><code class="sourceCode html"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">style</span><span class="dt">&gt;</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>abbr<span class="ex">[</span><span class="ss">title</span><span class="ex">]</span> {</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">cursor</span><span class="ch">:</span> <span class="dv">help</span><span class="op">;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>abbr<span class="ex">[</span><span class="ss">title</span><span class="ex">]</span><span class="in">:hover::after</span> {</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="kw">content</span><span class="ch">:</span> <span class="st">" ("</span> <span class="fu">attr(</span><span class="dv">title</span><span class="fu">)</span> <span class="st">")"</span><span class="op">;</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">style</span><span class="dt">&gt;</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>This an <span class="dt">&lt;</span><span class="kw">abbr</span><span class="ot"> title</span><span class="op">=</span><span class="st">"abbreviation"</span><span class="dt">&gt;</span>abbr<span class="dt">&lt;/</span><span class="kw">abbr</span><span class="dt">&gt;</span> element tag.</span></code></pre>
+   </div>
+   <p>
+    The meat of the trick is in the <code>content</code> property
+declaration value making use of the <code>attr()</code> CSS
+function.
+   </p>
+   <p>
+    According to the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/attr">MDN
+documentation</a>:
+   </p>
+   <blockquote>
+    <p>
+     The <code>attr()</code> CSS function is used to retrieve the value of
+an attribute of the selected element and use it in the stylesheet. It
+can also be used on pseudo-elements, in which case the value of the
+attribute on the pseudo-element’s originating element is returned.
+    </p>
+   </blockquote>
+   <p>
+    It is therefore seemingly self-explanatory: when hovering over the
+<code>abbr</code> element, two points of information are available, the
+browser tooltip and the text inside the paranthesis after the
+<code>abbr</code> element value, both generated by the
+<code>title</code> attribute.
+   </p>
+  </main>
+  <footer>
+   <p>
+    <em>Every word was once a poem. Every new relation is a new word.</em><br>
+    (From Ralph Waldo Emerson's essay <a href="https://www.gutenberg.org/files/2945/2945-h/2945-h.htm#link2H_4_0001">“The Poet”</a>)
+   </p>
+   <p>
+    The site is <a href="/colophon.txt">made and written by a human</a>.
+   </p>
+  </footer>
+ </body>
+</html>

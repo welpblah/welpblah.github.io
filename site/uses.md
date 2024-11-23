@@ -1,6 +1,6 @@
 # uses
 
-<aside>Miles Davis: “Man, sometimes it takes you a long time to sound like yourself.” Does this not also apply to the tools we use?</aside>
+<aside>Miles Davis, the jazz musician, is quoted saying, “Man, sometimes it takes you a long time to sound like yourself.” Doesn't this idea extend to, among other things, I'm sure, the tools we use?<br><br>Free and open-source software and hardware are on the right side of history, but unfortunately, convenience often trumps as the list below of the tools I use illustrates.<br><br>This page is inspired by <a href="https://usesthis.com">the interviews on Uses This</a>.</aside>
 
 ## hardware
 ### computer
@@ -18,34 +18,26 @@
 ## software
 ### desktop
 - **Password manager:** KeePassXC
-- **Text editor:** BBEdit
+- **Text editor:** Visual Studio Code
 - **Terminal:** Terminal.app
   - **Shell:** Bash
   - **Package manager:** MacPorts
     - **Typesetting system:** Typst
   - **Version control system:** Git
-- **Task manager:** TextEdit.app
+- **Note taking:** [Nota](https://nota.md/)
 - **<abbr title="Portable Document Format">PDF</abbr> viewer:** Preview.app
-- **<abbr title="Free Lossless Audio Codec">FLAC</abbr> player:** foobar2000
+- **Music player:** [Doppler](https://brushedtype.co/doppler/)
 - **Prevent sleep:** [KeepingYouAwake](https://keepingyouawake.app/)
 
 ### browser
 - **Browser:** Google
   - **Search engine:** Chrome
-    - **Clean search results:** [&udm=14](https://tenbluelinks.org/)
   - **Extensions:**
     - **Content blocker:** uBlock Origin
     - **Password manager plugin:** KeePassXC-Browser
     - **Keyboard shorcuts:** Vimium
-- **Code forges:** GitHub
+    - **Block websites:** [Block Site](https://github.com/penge/block-site)
+- **Code forge:** GitHub
 - **Domain registrar:** Porkbun
-- **E-mail service provider:** Migadu, Protonmail
-- **<abbr title="Free Lossless Audio Codec">FLAC</abbr> providers:** Bandcamp, Boomkat
-
-#### subscriptions
-- **Domain registrar:** Porkbun
-- **E-mail service provider:** Migadu
-- **Philosophy articles:** [Friends of the Stanford Encyclopedia of Philosophy Society](https://leibniz.stanford.edu/friends/)
-- **Philosophy reviews:** [Notre Dame Philosophical Reviews](https://ndpr.nd.edu/) (Free)
-- **Literary magazine:** The Kenyon Review
-- **Movie streaming service:** Criterion Channel
+- **Email service providers:** Migadu, Protonmail
+- **Music providers:** Bandcamp, Boomkat

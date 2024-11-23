@@ -1,8 +1,7 @@
 <post-metadata>
   <post-title>latex to typst</post-title>
   <post-date>2024-10-09</post-date>
-  <post-display-date>October 9, 2024</post-display-date>
-  <post-tags>typesetting</post-tags>
+  <post-tags>typesetting, typst, cli</post-tags>
 </post-metadata>
 
 The first typsetting system setup I had was writing LaTeX in [TeXShop](https://pages.uoregon.edu/koch/texshop/), an application created and released in the year 2000. I would use [The Comprehensive TeX Archive Network](https://ctan.org/) (CTAN) to look up packages and find answers on the [LaTeX Stack Exchange: TeX](https://tex.stackexchange.com/). And while I remember trying out [Overleaf](https://www.overleaf.com/), an online LaTeX editor, it never stuck.

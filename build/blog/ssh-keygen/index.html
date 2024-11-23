@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="a personal website">
+  <meta property="og:title" content="sunrash">
+  <meta property="og:description" content="a personal website">
+  <meta property="og:image" content="/assets/images/odilon-redon.jpg">
+  <link rel="stylesheet" href="/style.css">
+  <title>
+   ssh-keygen — sunrash
+  </title>
+ </head>
+ <body>
+  <header>
+   <nav>
+    <a href="/">sunrash</a> &nbsp;&nbsp;/&nbsp;&nbsp;
+        <a class="nav-active" href="/blog">blog</a> &nbsp;&nbsp;/&nbsp;&nbsp;
+        <a href="/uses">uses</a> &nbsp;&nbsp;/&nbsp;&nbsp;
+        <a href="/reading">reading</a> &nbsp;&nbsp;/&nbsp;&nbsp;
+        <a href="/resources">resources</a>
+   </nav>
+  </header>
+  <main>
+   <div id="post-header">
+    <h1 id="post-title">
+     ssh-keygen
+    </h1>
+    <div>
+     <time id="post-date" datetime="2024-11-14">2024-11-14</time>
+    </div>
+    <div class="post-tags">
+     <span>&nbsp;•&nbsp;&nbsp;</span><a href="/blog/tag/cli"><span class="post-tag">cli</span></a>, <a href="/blog/tag/ssh"><span class="post-tag">ssh</span></a>, <a href="/blog/tag/cryptography"><span class="post-tag">cryptography</span></a>
+    </div>
+    <div>
+     <br><span id="reading-time">less than a minute</span> <span>reading time</span>
+    </div>
+   </div>
+   <p>
+    The <a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent">GitHub
+documentation</a>, <a href="https://man.sr.ht/tutorials/set-up-account-and-git.md">SourceHut
+documentation</a>, and <a href="https://docs.codeberg.org/security/ssh-key/">Codeberg
+documentation</a> for generating SSH keys are slightly different.
+   </p>
+   <p>
+    GitHub:
+   </p>
+   <pre class="shell"><code>ssh-keygen -t ed25519 -C "your_email@example.com"</code></pre>
+   <p>
+    SourceHut:
+   </p>
+   <pre class="shell"><code>ssh-keygen</code></pre>
+   <p>
+    Codeberg:
+   </p>
+   <pre class="shell"><code>ssh-keygen -t ed25519 -a 100</code></pre>
+   <p>
+    According to the <a href="https://www.man7.org/linux/man-pages/man1/ssh-keygen.1.html">ssh-keygen
+documentation</a>, the <code>-t</code> flag means:
+   </p>
+   <pre class="man"><code>-t dsa | ecdsa | ecdsa-sk | ed25519 | ed25519-sk | rsa
+       Specifies the type of key to create.  The possible values
+       are “dsa”, “ecdsa”, “ecdsa-sk”, “ed25519”, “ed25519-sk”,
+       or “rsa”.
+
+       This flag may also be used to specify the desired
+       signature type when signing certificates using an RSA CA
+       key.  The available RSA signature variants are “ssh-rsa”
+       (SHA1 signatures, not recommended), “rsa-sha2-256”, and
+       “rsa-sha2-512” (the default).</code></pre>
+   <p>
+    But at the beginning of the <code>ssh-keygen</code> documentation,
+the following is stated:
+   </p>
+   <blockquote>
+    <p>
+     If invoked without any arguments, <code>ssh-keygen</code> will
+generate an Ed25519 key.
+    </p>
+   </blockquote>
+   <p>
+    GitHub and Codeberg therefore think explicitly stating the
+<code>-t</code> flag with the <a href="https://cryptography.io/en/latest/hazmat/primitives/asymmetric/ed25519/">ed25519
+signing algorithm</a> argument is important. As the following note, in
+the GitHub documentation:
+   </p>
+   <blockquote>
+    <p>
+     If you are using a legacy system that doesn’t support the Ed25519
+algorithm, use:
+    </p>
+    <p>
+     <code>ssh-keygen -t rsa -b 4096 -C "your_email@example.com" </code>
+    </p>
+   </blockquote>
+   <p>
+    Is this to say, when creating a computer system, the system
+programmers implement particular already-accepted-among-the-industry
+cryptographic algorithms for the purpose of software security? And
+therefore, older computer systems might have different cryptographic
+algorithms?
+   </p>
+   <p>
+    Furthermore, is SourceHut’s documentation of omitting the type of key
+bad practice? If I’m on a legacy system that does not support the
+Ed25519 algorithm, will <code>ssh-keygen</code> default to some other
+algorithm like, say, RSA?
+   </p>
+  </main>
+  <footer>
+   <p>
+    <em>Every word was once a poem. Every new relation is a new word.</em><br>
+    (From Ralph Waldo Emerson's essay <a href="https://www.gutenberg.org/files/2945/2945-h/2945-h.htm#link2H_4_0001">“The Poet”</a>)
+   </p>
+   <p>
+    The site is <a href="/colophon.txt">made and written by a human</a>.
+   </p>
+  </footer>
+ </body>
+</html>

@@ -1,7 +1,6 @@
 <post-metadata>
   <post-title>style guide</post-title>
   <post-date>2024-10-01</post-date>
-  <post-display-date>October 1, 2024</post-display-date>
   <post-tags>meta</post-tags>
 </post-metadata>
 
