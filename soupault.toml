@@ -53,8 +53,8 @@
   site_url = "https://sunra.sh"
 
   # Optional but strongly recommended:
-  # site_author = "blog@sunra.sh"
-  site_author_email = "blog@sunra.sh"
+  site_author = "bernardino"
+  site_author_email = "hi@sunra.sh"
   site_title = "sunrash – a personal website"
   # site_logo = "https://sunra.sh/favicon.png"
 

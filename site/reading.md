@@ -1,6 +1,6 @@
 # reading
 
-<aside>As <a href="https://www.themarginalian.org/2014/06/06/kafka-on-books-and-reading/">20-year-old Franz Kafka writes to his childhood friend</a>, “If the book we’re reading doesn’t wake us up with a blow on the head, what are we reading it for?”<br><br>The list below represents my personal reading list, one that I would like to add comes from, hopefully, judicious discernment in regard to my interests.</aside><br>
+<aside>As <a href="https://www.themarginalian.org/2014/06/06/kafka-on-books-and-reading/">20-year-old Franz Kafka writes to his childhood friend</a>, “If the book we’re reading doesn’t wake us up with a blow on the head, what are we reading it for?”<br><br>The list below represents my reading list, one that I would like to derives from, hopefully, judicious discernment in regard to my interests.</aside><br>
 
 <table>
   <thead>

@@ -20,7 +20,7 @@ https://soupault.app/
 HTML - Markup language
 https://developer.mozilla.org/en-US/docs/Web/HTML
 
-CSS - Stylesheet language
+CSS - Stylesheet  language
 https://developer.mozilla.org/en-US/docs/Web/CSS
 
 Markdown - Markup language
@@ -35,38 +35,38 @@ https://toml.io/en/
 GitHub - Code hosting
 https://github.com/
 
-GitHub Pages - Site hosting
-https://pages.github.com/
-
 GitHub Actions - Continuous deployment
 https://github.com/features/actions
+
+GitHub Pages - Site hosting
+https://pages.github.com/
 
 -----
 TOOLS
 -----
 
-Visual Studio Code - Text editor
-https://code.visualstudio.com/
+Micro - Text editor
+https://micro-editor.github.io/
 
-Chrome - Browser
-https://www.google.com/chrome/
+Firefox - Browser
+https://www.mozilla.org/firefox/
 
 -----
 FONTS
 -----
 
-Helitrope by Matthew Butterick
-https://mbtype.com/fonts/heliotrope/story.html
+GFS Neohellenic
+https://fontlibrary.org/en/font/gfs-neohellenic
 
-JetBrains Mono
-https://www.jetbrains.com/lp/mono/
+Anka/Coder
+https://fontlibrary.org/en/font/anka-coder
 
 ---------------
 PROFILE PICTURE
 ---------------
 
-The profile picture on the root page is dithered with the Dither it! tool
-https://ditherit.com/
+The profile picture on the root page is dithered with the 37C3 Dither Tool
+https://eulervoid.com/dither/
 
 -------
 LICENSE
@@ -92,4 +92,4 @@ https://en.wikipedia.org/wiki/.sh
 LOCATION
 --------
 
-The site is made and written from Santa Ana, California
+The site is made and written from Southern California
