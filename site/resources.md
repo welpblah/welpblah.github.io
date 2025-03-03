@@ -4,9 +4,6 @@
 
 ## software
 
-- [MDN Web Docs](https://developer.mozilla.org/en-US/)
-> The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.
-
 - [Execute Program](https://www.executeprogram.com/)
 > Execute Program is a learning platform built by developers for developers, because we thought there should be a better way to learn – and remember – programming languages and tools.
 
@@ -37,3 +34,6 @@ I recommend checking out the [Claremont School of Theology Library Donation](htt
 
 - [Open Library](https://openlibrary.org/)
 > Open Library is an open, editable library catalog, building towards a web page for every book ever published.
+
+- [The Public Domain Review](https://publicdomainreview.org/)
+> Founded in 2011, _The Public Domain Review_ is an online journal and not-for-profit project dedicated to the exploration of curious and compelling works from the history of art, literature, and ideas.

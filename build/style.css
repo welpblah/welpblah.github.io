@@ -42,10 +42,11 @@
 
 body {
     line-height: 1.65;
+    max-width: calc(100vw - 4em);
     margin: 0 auto;
-    max-width: 36em;
-    padding: 2rem;
-    font-size: 120%;
+    padding: 2em;
+    width: 35em;
+    font-size: 130%;
     font-family: 'GFS Neohellenic', sans-serif;
 }
 
@@ -169,7 +170,6 @@ a {
 a[href*="//"]:after {
     font-size: 0.68em;
     content: "\2197";
-    display: inline-block;
 }
 
 a:hover {
@@ -243,7 +243,7 @@ th {
 
 th,
 td {
-    border: 1px solid #474747;
+    border: 1px solid;
     padding: 0.4rem 0.8rem;
 }
 

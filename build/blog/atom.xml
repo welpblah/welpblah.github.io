@@ -1,10 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://sunra.sh/atom.xml</id>
-  <updated>2024-11-15T00:00:00+00:00</updated>
+  <updated>2025-03-03T00:00:00+00:00</updated>
   <title>sunrash – a personal website</title><author>
     <name>bernardino</name><email>hi@sunra.sh</email></author>
   <generator uri="https://soupault.app" version="4.11.0">soupault</generator>
+  <entry>
+    <id>https://sunra.sh/blog/so-you-are-looking-for-sensible-software-services</id>
+    <title>so you are looking for sensible software services?</title>
+    <updated>2025-03-03T00:00:00+00:00</updated>
+    <content type="html">
+    In today’s day and age, one might question: Where may I find
+sensibility? The answer: Well, certainly not in the popular. Here are a
+few sensible software services being offered today that are seemingly
+unknown (at least to the lay, the non-technical):
+    </content>
+    <link href="https://sunra.sh/blog/so-you-are-looking-for-sensible-software-services" rel="alternate"/>
+  </entry>
+  
   <entry>
     <id>https://sunra.sh/blog/two-cool-programmers</id>
     <title>two cool programmers</title>

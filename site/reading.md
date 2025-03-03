@@ -11,6 +11,41 @@
     </tr>
   </thead>
   <tbody>
+  		<tr>
+    		<td>Pablo Neruda</td>
+    		<td>The Captain's Verses</td>
+    		<td>Spring 2025</td>
+  		</tr>
+        <tr>
+    		<td>Richard Siken</td>
+    		<td>Crush</td>
+    		<td>Spring 2025</td>
+        </tr>
+        <tr>
+          <td>Hadewijch</td>
+          <td>The Complete Works</td>
+          <td>Spring 2025</td>
+        </tr>
+        <tr>
+    		<td>Georg Trakl</td>
+    		<td>Poems and Prose: A Bilingual Edition</td>
+    		<td>Winter 2025</td>
+        </tr>
+		<tr>
+    		<td>Anna Akhamatova</td>
+    		<td>Selected Poems</td>
+    		<td>Winter 2025</td>
+		</tr>
+  		<tr>
+    		<td>Gaston Bachelard</td>
+    		<td>Water and Dreams: An Essay on the Imagination of Matter</td>
+    		<td>Winter 2025</td>
+  		</tr>
+		<tr>
+    		<td>Mihai Eminescu</td>
+    		<td>Poems</td>
+    		<td>Winter 2025</td>
+  		</tr>
     <tr>
       <td>Richard Kearney</td>
       <td>Carnal Hermeneutics</td>
@@ -34,16 +69,6 @@
     <tr>
       <td>Nicola Masciandaro</td>
       <td><a href="https://www.academia.edu/115515436/Four4_Great_Errors">Four4 Great Errors</a></td>
-      <td>Fall 2024</td>
-    </tr>
-    <tr>
-      <td>Hadewijch</td>
-      <td>The Complete Works</td>
-      <td>Fall 2024</td>
-    </tr>
-    <tr>
-      <td>Simone Weil</td>
-      <td>First and Last Notebooks: Supernatural Knowledge</td>
       <td>Fall 2024</td>
     </tr>
     <tr>

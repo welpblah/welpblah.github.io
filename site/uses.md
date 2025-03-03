@@ -27,16 +27,20 @@
     - **Audio player:** [cmus](https://cmus.github.io/)
     - **Journal (see “log” above):** [jrnl.sh](https://jrnl.sh/)
   - **Version control system:** Git
-- **<abbr title="Portable Document Format">PDF</abbr> knowledge base:** [Cahier](https://getcahier.com/)
+- **Image and <abbr title="Portable Document Format">PDF</abbr> viewer:** Preview.app
+- **Feed (<abbr title="Really Simple Syndication">RSS</abbr>) reader:** [yarr](https://github.com/nkanaev/yarr)
 - **Prevent computer from sleeping:** KeepingYouAwake
 
 ### browser
-- **Browser:** Firefox
-  - **Search engine:** DuckDuckGo Lite  
-  - **Extensions:**
-    - **Content blocker:** uBlock Origin
-    - **Password manager plugin:** KeePassXC-Browser
-    - **Keyboard shorcuts:** Vimium
+- **Browser:** Chrome
+  - **Search engine:** DuckDuckGo Lite
+    - **Extensions:**
+      - **Content blocker:** uBlock Origin
+      - **Password manager plugin:** KeePassXC-Browser
+      - **Keyboard shorcuts:** Vimium
+      - **Website blocker:** [Block Site](https://github.com/penge/block-site)
+  - **Nameserver:** NextDNS
+      - **Configuration:** [NextDNS-Config](https://github.com/yokoffing/NextDNS-Config) 
 - **Code forge:** GitHub
-- **Email provider:** Migadu
-- **Feed (RSS) reader:** BazQux Reader
+- **Domain registrar:** Porkbun
+- **Email providers:** Proton, Migadu
