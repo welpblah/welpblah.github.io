@@ -1,14 +1,20 @@
-                                        8
-                                        8
-.oPYo. o    o odYo. oPYo. .oPYo. .oPYo. 8oPYo.
-Yb..   8    8 8' `8 8  `' .oooo8 Yb..   8    8
-  'Yb. 8    8 8   8 8     8    8   'Yb. 8    8
-`YooP' `YooP' 8   8 8     `YooP8 `YooP' 8    8
+                                        8      
+                                        8      
+.oPYo. o    o odYo. oPYo. .oPYo. .oPYo. 8oPYo. 
+Yb..   8    8 8' `8 8  `' .oooo8 Yb..   8    8 
+  'Yb. 8    8 8   8 8     8    8   'Yb. 8    8 
+`YooP' `YooP' 8   8 8     `YooP8 `YooP' 8    8 
 :.....::.....:..::....:::::.....::.....:..:::..
 :::::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::::::::::::::::::::::::::::::::::::::
 
-The colophon for this site.
+The webmaster, technology, & tools behind the site https://sunra.sh/
+
+---------
+WEBMASTER
+---------
+
+Bernardino from his ever-sacrificing parents' dining room (AKA his bedroom) in California
 
 ------------
 TECHNOLOGIES
@@ -45,41 +51,27 @@ https://pages.github.com/
 TOOLS
 -----
 
-Micro - Text editor
-https://micro-editor.github.io/
+Sublime Text - Text editor
+https://www.sublimetext.com/
 
-Firefox - Browser
-https://www.mozilla.org/firefox/
+LibreWolf - Browser
+https://librewolf.net/
 
 -----
 FONTS
 -----
 
-GFS Neohellenic
+GFS Neohellenic - Sans-serif
 https://fontlibrary.org/en/font/gfs-neohellenic
 
-Anka/Coder
-https://fontlibrary.org/en/font/anka-coder
-
----------------
-PROFILE PICTURE
----------------
-
-The profile picture on the root page is dithered with the 37C3 Dither Tool
-https://eulervoid.com/dither/
-
--------
-LICENSE
--------
-
-The content of the site is dedicated to the public domain
-https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt
+Courier Prime Code - Monospace
+https://www.fontsquirrel.com/fonts/courier-prime-code
 
 ------
 DOMAIN
 ------
 
-The fully qualified domain name, 'sunrash.com', is the intended name of the site, 'sunrash'
+The fully qualified domain name, 'sunra.sh', is the intended name of the site, 'sunrash'
 (Please note: there is no space between 'sun' and 'rash', contrary to the accepted form)
 
 The second-level domain, 'sunra', is a reference to Sun Ra, the late musician
@@ -87,9 +79,3 @@ https://en.wikipedia.org/wiki/Sun_Ra
 
 The country code top-level domain, '.sh', belongs to the British Overseas Territory of Saint Helena, Ascension and Tristan da Cunha
 https://en.wikipedia.org/wiki/.sh
-
---------
-LOCATION
---------
-
-The site is made and written from Southern California

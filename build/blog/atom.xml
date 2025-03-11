@@ -3,10 +3,10 @@
   <id>https://sunra.sh/atom.xml</id>
   <updated>2025-03-03T00:00:00+00:00</updated>
   <title>sunrash – a personal website</title><author>
-    <name>bernardino</name><email>hi@sunra.sh</email></author>
+    <name>Bernardino</name><email>ow@sunra.sh</email></author>
   <generator uri="https://soupault.app" version="4.11.0">soupault</generator>
   <entry>
-    <id>https://sunra.sh/blog/so-you-are-looking-for-sensible-software-services</id>
+    <id>https://sunra.sh//blog/so-you-are-looking-for-sensible-software-services</id>
     <title>so you are looking for sensible software services?</title>
     <updated>2025-03-03T00:00:00+00:00</updated>
     <content type="html">
@@ -15,11 +15,11 @@ sensibility? The answer: Well, certainly not in the popular. Here are a
 few sensible software services being offered today that are seemingly
 unknown (at least to the lay, the non-technical):
     </content>
-    <link href="https://sunra.sh/blog/so-you-are-looking-for-sensible-software-services" rel="alternate"/>
+    <link href="https://sunra.sh//blog/so-you-are-looking-for-sensible-software-services" rel="alternate"/>
   </entry>
   
   <entry>
-    <id>https://sunra.sh/blog/two-cool-programmers</id>
+    <id>https://sunra.sh//blog/two-cool-programmers</id>
     <title>two cool programmers</title>
     <updated>2024-11-15T00:00:00+00:00</updated>
     <content type="html">
@@ -27,11 +27,11 @@ unknown (at least to the lay, the non-technical):
 are &lt;a href=&quot;https://github.com/kevinboone/&quot;&gt;Kevin Boone&lt;/a&gt; and Greg
 Miller.
     </content>
-    <link href="https://sunra.sh/blog/two-cool-programmers" rel="alternate"/>
+    <link href="https://sunra.sh//blog/two-cool-programmers" rel="alternate"/>
   </entry>
   
   <entry>
-    <id>https://sunra.sh/blog/ssh-keygen</id>
+    <id>https://sunra.sh//blog/ssh-keygen</id>
     <title>ssh-keygen</title>
     <updated>2024-11-14T00:00:00+00:00</updated>
     <content type="html">
@@ -40,11 +40,11 @@ documentation&lt;/a&gt;, &lt;a href=&quot;https://man.sr.ht/tutorials/set-up-acc
 documentation&lt;/a&gt;, and &lt;a href=&quot;https://docs.codeberg.org/security/ssh-key/&quot;&gt;Codeberg
 documentation&lt;/a&gt; for generating SSH keys are slightly different.
     </content>
-    <link href="https://sunra.sh/blog/ssh-keygen" rel="alternate"/>
+    <link href="https://sunra.sh//blog/ssh-keygen" rel="alternate"/>
   </entry>
   
   <entry>
-    <id>https://sunra.sh/blog/a-better-abbr-element</id>
+    <id>https://sunra.sh//blog/a-better-abbr-element</id>
     <title>a better `abbr` element</title>
     <updated>2024-11-14T00:00:00+00:00</updated>
     <content type="html">
@@ -57,11 +57,11 @@ explicitly stating what the abbrevation/acronym means. The most
 accessibly-friendly approach is using both tactics. Although, there is,
 I think, an acceptable medium.
     </content>
-    <link href="https://sunra.sh/blog/a-better-abbr-element" rel="alternate"/>
+    <link href="https://sunra.sh//blog/a-better-abbr-element" rel="alternate"/>
   </entry>
   
   <entry>
-    <id>https://sunra.sh/blog/latex-to-typst</id>
+    <id>https://sunra.sh//blog/latex-to-typst</id>
     <title>latex to typst</title>
     <updated>2024-10-09T00:00:00+00:00</updated>
     <content type="html">
@@ -71,11 +71,11 @@ application created and released in the year 2000. I would use &lt;a href=&quot;
 while I remember trying out &lt;a href=&quot;https://www.overleaf.com/&quot;&gt;Overleaf&lt;/a&gt;, an online LaTeX editor,
 it never stuck.
     </content>
-    <link href="https://sunra.sh/blog/latex-to-typst" rel="alternate"/>
+    <link href="https://sunra.sh//blog/latex-to-typst" rel="alternate"/>
   </entry>
   
   <entry>
-    <id>https://sunra.sh/blog/stylesheet-test</id>
+    <id>https://sunra.sh//blog/stylesheet-test</id>
     <title>style guide</title>
     <updated>2024-10-01T00:00:00+00:00</updated>
     <content type="html">
@@ -93,7 +93,7 @@ earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
 voluptatibus maiores alias consequatur aut perferendis doloribus
 asperiores repellat.
     </content>
-    <link href="https://sunra.sh/blog/stylesheet-test" rel="alternate"/>
+    <link href="https://sunra.sh//blog/stylesheet-test" rel="alternate"/>
   </entry>
   
 </feed>

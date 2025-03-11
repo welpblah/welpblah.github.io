@@ -50,13 +50,13 @@
   # If you want to generate Atom feeds, you will need to adjust the site metadata config below:
 
   # Required:
-  site_url = "https://sunra.sh"
+  site_url = "https://sunra.sh/"
 
   # Optional but strongly recommended:
-  site_author = "bernardino"
-  site_author_email = "hi@sunra.sh"
+  site_author = "Bernardino"
+  site_author_email = "ow@sunra.sh"
   site_title = "sunrash – a personal website"
-  # site_logo = "https://sunra.sh/favicon.png"
+  # site_logo = ""
 
   # Completely optional: 
   # site_subtitle = "Some subtitle"
@@ -73,7 +73,7 @@
 
   sort_descending = true
 
-  extract_after_widgets = ['insert-reading-time', 'make-post-header']
+  extract_after_widgets = ['make-post-header']
 
   sort_by = "date"
 
@@ -86,8 +86,6 @@
   excerpt = { selector = ["#post-excerpt", "p"] }
   date = { selector = ["#post-date", "time"] }
   tags = { selector = ".post-tag", select_all = true }
-
-  reading_time = { selector = "#reading-time" }
 
 [index.views.blog-index]
   # Insert generated index into an element that matches "#blog-index" selector.
@@ -102,14 +100,6 @@
     <ul class="toc">
     	<li>
     	<span class="toc-date">{{e.date}}</span>
-    	    {% if e.tags %}
-    <div class="post-tags">
-       <span>&nbsp;&bull;&nbsp;&nbsp;</span>
-       {%- for t in e.tags -%}
-         <a href="/blog/tag/{{t}}"><span class="post-tag">{{t}}</span></a>{% if not loop.last %}, {% endif %}
-       {%- endfor -%}
-    </div>
-    {% endif %}
     	<br>
     	<a href="{{e.url}}">{{e.title}}</a>
     	</li>
@@ -195,7 +185,7 @@
       <div><time id="post-date" datetime="{{date}}">{{date}}</time></div>
       {% if tags %}
         <div class="post-tags">
-         <span>&nbsp;&bull;&nbsp;&nbsp;</span>
+         <span>&nbsp;&sdot;&nbsp;&nbsp;</span>
          {%- for t in tags -%}
            <a href="/blog/tag/{{t}}"><span class="post-tag">{{t}}</span></a>{% if not loop.last %}, {% endif %}
          {%- endfor -%}
@@ -203,41 +193,6 @@
         {% endif %}
     </div>
 '''
-
-
-# Why require adding a target element for the reading-time plugin by hand?
-# We'll insert it automatically
-[widgets.insert-reading-time-container]
-  widget = "insert_html"
-
-  after = "make-post-header"
-
-  # Reading time container should only be in blog/*
-  section = "blog/"
-
-  # ...but not in blog/index.html
-  exclude_path_regex = "(.*)/index(.*)"
-
-  # Insert the reading time container right after the post title in <h1>
-  action = "append_child"
-  selector = "#post-header"
-
-  html = '<div><br><span id="reading-time"></span> <span>reading time</span></div>'
-
-# This widget comes from plugins/reading-time.lua
-# It calculates estimated reading time based on word count
-[widgets.insert-reading-time]
-  widget = "reading-time"
-
-  # If this widget runs before "insert-reading-time-container",
-  # there will be nowhere to insert the reading time.
-  # This is why we explicitly schedule it to run after that widget.
-  after = "insert-reading-time-container"
-
-  selector = "#reading-time"
-
-  # The element where it looks for page "content"
-  content_selector = "main"
 
 # Inserts a table of contents generated from page headings
 [widgets.table-of-contents]

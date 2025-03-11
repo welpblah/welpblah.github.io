@@ -1,6 +1,6 @@
-# uses
+# technical apparatus
 
-<aside>Miles Davis, the jazz musician, is quoted saying, “Man, sometimes it takes you a long time to sound like yourself.” Doesn't this idea extend to, among other things, the tools we use?<br><br>Free/libre and open-source software and hardware are on the right side of history, but, unfortunately, convenient patterns often trump.<br><br>This page is inspired by <a href="https://usesthis.com">the interviews on Uses This</a>.</aside>
+<aside>Miles Davis, the jazz musician, is quoted saying, “Man, sometimes it takes you a long time to sound like yourself.” Doesn’t this idea extend to, among other things, the tools we use?<br><br>This page is inspired by <a href="https://usesthis.com">the interviews on Uses This</a>.</aside>
 
 ## hardware
 ### computer
@@ -19,28 +19,24 @@
 ## software
 ### desktop
 - **Password manager:** KeePassXC
+- **Text editor:** Sublime Text
 - **Terminal:** Terminal.app
-  - **Shell:** Bash
+  - **Shell:** Fish
   - **Package manager:** MacPorts
-    - **Text editor:** [micro](https://micro-editor.github.io/)
     - **Typesetting system:** Typst
-    - **Audio player:** [cmus](https://cmus.github.io/)
-    - **Journal (see “log” above):** [jrnl.sh](https://jrnl.sh/)
   - **Version control system:** Git
 - **Image and <abbr title="Portable Document Format">PDF</abbr> viewer:** Preview.app
-- **Feed (<abbr title="Really Simple Syndication">RSS</abbr>) reader:** [yarr](https://github.com/nkanaev/yarr)
+- **Audio player:** foobar2000
 - **Prevent computer from sleeping:** KeepingYouAwake
 
 ### browser
-- **Browser:** Chrome
+- **Browser:** LibreWolf
   - **Search engine:** DuckDuckGo Lite
     - **Extensions:**
       - **Content blocker:** uBlock Origin
       - **Password manager plugin:** KeePassXC-Browser
       - **Keyboard shorcuts:** Vimium
-      - **Website blocker:** [Block Site](https://github.com/penge/block-site)
   - **Nameserver:** NextDNS
-      - **Configuration:** [NextDNS-Config](https://github.com/yokoffing/NextDNS-Config) 
+    - **Config:** [NextDNS-Config](https://github.com/yokoffing/NextDNS-Config)
 - **Code forge:** GitHub
-- **Domain registrar:** Porkbun
-- **Email providers:** Proton, Migadu
+- **Email providers:** Protonmail

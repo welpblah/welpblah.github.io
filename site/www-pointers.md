@@ -1,4 +1,4 @@
-# resources
+# world wide web pointers
 
 <aside>The web today may consist of an anxiety-producing overabundance of labyrinths, but here and there, we come across the noteworthy. <br><br> The list below represents some resources I, myself, use or have used and recommend.</aside>
 
